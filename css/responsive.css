@@ -1,1 +1,72 @@
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .nav1 {
+        display: none;
+    }
+    .nav2 {
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .nav2 .logo {
+        margin-right: 100%;
+        margin-bottom: -30px;
+    }
+    .nav2 .nav {
+        display: none;
+    }
+    .sear {
+        margin-right: 10%;
+    }
+    .sear .icons {
+        margin-top: -30px;
+    }
+    .sear .container .search-bar input {
+        display: none;
+        margin-top: -100px;
+    }
+    .sear .container .search-bar {
+        display: none;
+    }
+    .banner span {
+        font-size: 30px;
+    }
+    .banner {
+        padding-top: 25%;
+        padding-left: 20px;
+        height: 50vh;
+    }
+    .carouselles1 {
+        margin-left: 0px;
+    }
+    .carouselles1 p {
+        font-size: 20px;
+    }
+    .carouselles1 .encemoment {
+        /* display: grid !important; */
+        /* grid-template-columns: repeat(1, 1fr) !important; */
+        gap: 30px !important;
+    }
+    /* .img1 {
+        width: 200px !important; */
+    /* height: 400px !important; */
+    /* }
+    .img1 img {
+        width: 400px !important;
+        height: 620px;
+    }  */
+    .footer .footer1 {
+        margin-left: 0px;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .footer1 .sect1 h5 {
+        margin-bottom: -110px;
+    }
+    .footer1 .sect1 span {
+        display: none;
+    }
+    hr {
+        margin-top: 110px;
+    }
+}
